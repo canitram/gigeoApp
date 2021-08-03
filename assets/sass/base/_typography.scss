@@ -1,1 +1,13 @@
-//This file you will create your rule of typographys inside of the project
+h2{
+   font-size: $xx-large;
+   padding-left: 2rem;
+}
+
+h5{
+   font-size: $x-large;
+   font-weight: $bold;
+}
+
+p{
+   font-size: $medium;
+}

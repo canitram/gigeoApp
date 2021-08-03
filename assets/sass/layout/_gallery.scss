@@ -1,1 +1,32 @@
-//This file is for create your style with relation on space of footer
+.gallery{
+   text-align: start;
+   @include media-breakpoint-up(lg){
+      column-gap: 0;
+   }
+   @include media-breakpoint-up(md){
+         row-gap:0;
+   }
+      &--title{
+      text-align: center;
+      font-size: $x-large;
+      font-family: $montserrat;
+      margin: 2rem 0;
+      @include media-breakpoint-up(md){
+         text-align: start;
+
+   }
+      
+   }
+
+   /* .figure-img{
+      margin-bottom: 0;
+   } */
+   .figure__title{
+      font-weight: $bold;
+      font-size: $small;
+
+   }
+   .figure-caption{
+      text-align: start;
+   }
+}

@@ -1,1 +1,20 @@
-//You can change the name in this file
+//importar archivos parciales desde sass
+@import
+   './abstracts/variables',
+   './abstracts/mixins';
+
+@import
+'./vendors/bootstrap_sass/bootstrap';
+
+@import
+   'base/reset';
+
+@import
+   './layout/navigation',
+   './layout/header',
+   './layout/main_section',
+   './layout/gallery';
+
+@import
+   './components/buttons',
+   './components/thumbnail';
